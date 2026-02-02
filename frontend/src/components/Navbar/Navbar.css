@@ -1,0 +1,47 @@
+.navbar {
+  background-color: #1e1e1e;
+  padding: 15px 20px;
+  border-bottom: 1px solid #333;
+}
+
+.navbar-container {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #2196f3;
+}
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.navbar-user {
+  color: #888;
+}
+
+.btn-login {
+  color: #2196f3;
+  padding: 8px 16px;
+}
+
+.btn-signup {
+  background: #2196f3;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 20px;
+}
+
+.btn-logout {
+  background: transparent;
+  color: #ff5252;
+  padding: 8px 16px;
+}

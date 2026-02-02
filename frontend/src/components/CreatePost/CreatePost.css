@@ -1,0 +1,88 @@
+.create-post {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.create-post-login {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.create-post-header {
+  display: flex;
+  gap: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #2196f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+.create-post-header textarea {
+  flex: 1;
+  background: #2a2a2a;
+  border-radius: 8px;
+  padding: 12px;
+  color: white;
+  resize: none;
+}
+
+.image-preview {
+  position: relative;
+  margin-top: 12px;
+}
+
+.image-preview img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.remove-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+.create-post-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+
+.btn-image {
+  background: transparent;
+  color: #2196f3;
+  padding: 8px 16px;
+}
+
+.btn-post {
+  background: #2196f3;
+  color: white;
+  padding: 8px 24px;
+  border-radius: 20px;
+}
+
+.btn-post:disabled {
+  opacity: 0.6;
+}
