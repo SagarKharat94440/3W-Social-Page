@@ -31,3 +31,10 @@ export async function deletePost(postId) {
   const response = await api.delete(`/posts/${postId}`)
   return response.data
 }
+
+// Delete comment
+export async function deleteComment(postId, commentId) {
+  const response = await api.delete(`/posts/${postId}/comment/${commentId}`)
+  return response.data
+}
+
